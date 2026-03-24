@@ -9,6 +9,5 @@ pipeline {                                  // 1 // Start of pipeline
             steps {
                 sh 'mvn clean install'
             }
-        }
     }
 }
